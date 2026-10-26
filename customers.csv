@@ -1,0 +1,501 @@
+customer_id,age,gender,city,customer_segment,account_type,account_open_date,risk_category
+C00001,23,Prefer not to say,Tumakuru,Premium,Current,2023-02-23,Medium
+C00002,65,Male,Delhi,Salary,Current,2020-09-25,Low
+C00003,71,Male,Delhi,Premium,Savings,2022-05-03,Medium
+C00004,67,Female,Delhi,Student,Current,2024-04-01,Medium
+C00005,70,Male,Mumbai,Salary,Savings,2021-10-20,Low
+C00006,60,Male,Kochi,Premium,Current,2018-06-30,Low
+C00007,75,Female,Mumbai,Salary,Savings,2024-01-10,Low
+C00008,52,Male,Mumbai,Student,Salary,2021-12-17,Medium
+C00009,56,Prefer not to say,Delhi,Student,Current,2024-05-06,Medium
+C00010,30,Prefer not to say,Pune,Salary,Current,2018-09-01,Low
+C00011,29,Prefer not to say,Kochi,Student,Savings,2023-11-06,Low
+C00012,53,Female,Coimbatore,Retail,Current,2018-07-11,Low
+C00013,38,Prefer not to say,Tumakuru,Retail,Salary,2024-09-07,Low
+C00014,75,Prefer not to say,Kochi,Student,Savings,2022-03-08,Low
+C00015,44,Prefer not to say,Hyderabad,Premium,Salary,2023-10-03,Low
+C00016,31,Male,Chennai,Student,Current,2019-12-31,Low
+C00017,25,Prefer not to say,Coimbatore,Salary,Savings,2019-02-09,Low
+C00018,38,Male,Pune,Salary,Salary,2022-10-02,Low
+C00019,32,Prefer not to say,Chennai,Premium,Salary,2018-08-01,Medium
+C00020,60,Male,Mysuru,Premium,Savings,2023-11-03,Low
+C00021,40,Male,Delhi,Retail,Current,2021-03-08,Low
+C00022,32,Female,Mysuru,Salary,Savings,2019-09-21,Medium
+C00023,38,Female,Tumakuru,Retail,Salary,2021-10-28,Low
+C00024,25,Prefer not to say,Pune,Student,Current,2024-11-07,Low
+C00025,67,Female,Chennai,Student,Savings,2021-08-21,Low
+C00026,30,Female,Kochi,Premium,Salary,2019-02-03,Low
+C00027,29,Male,Mysuru,Retail,Current,2020-05-24,Medium
+C00028,23,Prefer not to say,Delhi,Student,Current,2023-09-25,Low
+C00029,73,Female,Kochi,Premium,Current,2019-09-03,Low
+C00030,31,Female,Kochi,Student,Salary,2019-11-19,Low
+C00031,71,Female,Coimbatore,Salary,Current,2021-08-08,Low
+C00032,58,Female,Bengaluru,Student,Savings,2021-08-12,Low
+C00033,72,Prefer not to say,Hyderabad,Premium,Savings,2019-02-23,Low
+C00034,48,Male,Mysuru,Retail,Current,2020-10-08,Medium
+C00035,72,Prefer not to say,Pune,Salary,Savings,2023-04-24,Medium
+C00036,25,Female,Mysuru,Salary,Savings,2024-07-18,Low
+C00037,56,Prefer not to say,Pune,Premium,Salary,2022-10-14,Low
+C00038,59,Male,Delhi,Retail,Salary,2018-12-11,Low
+C00039,61,Male,Hyderabad,Premium,Current,2024-06-13,Medium
+C00040,74,Female,Mysuru,Salary,Current,2023-03-16,Low
+C00041,61,Female,Mumbai,Premium,Salary,2022-01-10,Medium
+C00042,46,Prefer not to say,Delhi,Retail,Salary,2024-03-22,Medium
+C00043,60,Female,Kochi,Retail,Current,2020-10-19,Low
+C00044,67,Prefer not to say,Chennai,Retail,Current,2018-07-02,Low
+C00045,72,Prefer not to say,Mumbai,Student,Savings,2021-04-17,Low
+C00046,53,Female,Mumbai,Premium,Salary,2021-09-30,Medium
+C00047,69,Male,Chennai,Student,Current,2021-04-29,Low
+C00048,34,Female,Mumbai,Student,Current,2023-11-17,Low
+C00049,74,Prefer not to say,Mysuru,Student,Current,2018-11-15,Low
+C00050,70,Prefer not to say,Mumbai,Premium,Savings,2022-04-01,Low
+C00051,46,Prefer not to say,Kochi,Premium,Savings,2023-11-05,Low
+C00052,33,Prefer not to say,Mumbai,Retail,Savings,2019-11-29,Low
+C00053,75,Male,Hyderabad,Retail,Salary,2018-10-10,Low
+C00054,63,Male,Delhi,Retail,Savings,2024-01-18,Medium
+C00055,64,Female,Kochi,Salary,Savings,2020-05-10,Medium
+C00056,43,Prefer not to say,Coimbatore,Premium,Savings,2018-09-15,Low
+C00057,65,Male,Pune,Salary,Savings,2018-09-16,Low
+C00058,64,Male,Delhi,Salary,Salary,2024-01-24,Low
+C00059,64,Female,Delhi,Student,Savings,2018-05-21,Low
+C00060,51,Female,Delhi,Premium,Current,2019-04-27,Low
+C00061,36,Prefer not to say,Chennai,Retail,Salary,2022-05-29,Low
+C00062,54,Female,Mumbai,Salary,Savings,2022-04-30,Low
+C00063,35,Prefer not to say,Mysuru,Salary,Salary,2021-05-31,Low
+C00064,28,Female,Mysuru,Premium,Savings,2023-01-13,Low
+C00065,42,Male,Chennai,Premium,Savings,2021-07-19,Medium
+C00066,67,Male,Chennai,Premium,Salary,2020-08-15,Medium
+C00067,36,Male,Delhi,Student,Current,2019-01-12,Low
+C00068,27,Male,Mysuru,Student,Salary,2025-01-13,Low
+C00069,22,Male,Mumbai,Student,Current,2022-06-16,Low
+C00070,59,Male,Mumbai,Salary,Current,2019-04-03,Low
+C00071,23,Male,Chennai,Retail,Salary,2023-04-15,High
+C00072,34,Male,Kochi,Premium,Salary,2022-10-18,Low
+C00073,67,Prefer not to say,Chennai,Student,Salary,2021-07-13,Low
+C00074,34,Female,Pune,Retail,Savings,2020-08-03,Low
+C00075,61,Prefer not to say,Pune,Premium,Salary,2020-06-10,Medium
+C00076,50,Male,Delhi,Salary,Salary,2024-09-08,Low
+C00077,47,Prefer not to say,Hyderabad,Salary,Savings,2024-05-26,Low
+C00078,67,Male,Kochi,Premium,Salary,2023-09-20,Low
+C00079,38,Female,Bengaluru,Salary,Savings,2020-12-20,Low
+C00080,36,Female,Chennai,Retail,Savings,2025-02-09,Medium
+C00081,30,Female,Chennai,Salary,Savings,2018-04-17,Medium
+C00082,23,Prefer not to say,Mumbai,Premium,Salary,2019-09-18,Low
+C00083,61,Female,Kochi,Salary,Savings,2022-01-06,Medium
+C00084,72,Male,Delhi,Premium,Savings,2022-09-30,Medium
+C00085,57,Prefer not to say,Chennai,Premium,Salary,2019-04-25,Low
+C00086,20,Female,Pune,Student,Savings,2022-09-18,Low
+C00087,42,Prefer not to say,Mysuru,Premium,Savings,2019-02-21,Low
+C00088,72,Male,Delhi,Premium,Current,2024-06-25,Low
+C00089,74,Male,Mysuru,Retail,Salary,2024-07-26,Low
+C00090,64,Female,Bengaluru,Student,Salary,2018-01-22,Low
+C00091,33,Prefer not to say,Mysuru,Salary,Salary,2024-03-25,Medium
+C00092,27,Female,Mumbai,Premium,Salary,2019-01-26,High
+C00093,69,Female,Bengaluru,Premium,Current,2021-06-12,Low
+C00094,64,Male,Tumakuru,Salary,Current,2021-11-04,Medium
+C00095,39,Male,Tumakuru,Premium,Savings,2023-09-19,Medium
+C00096,48,Female,Mysuru,Retail,Current,2021-01-30,Low
+C00097,32,Male,Tumakuru,Salary,Current,2021-09-02,Low
+C00098,41,Female,Mysuru,Premium,Salary,2019-01-10,Low
+C00099,52,Prefer not to say,Pune,Salary,Savings,2019-02-25,Medium
+C00100,69,Female,Chennai,Student,Current,2024-05-03,Medium
+C00101,20,Prefer not to say,Delhi,Retail,Current,2025-01-23,Medium
+C00102,23,Female,Bengaluru,Premium,Salary,2018-09-20,Low
+C00103,66,Prefer not to say,Mumbai,Student,Current,2022-08-31,Medium
+C00104,18,Male,Bengaluru,Salary,Salary,2024-01-04,Medium
+C00105,32,Prefer not to say,Pune,Retail,Current,2019-11-13,High
+C00106,22,Prefer not to say,Tumakuru,Salary,Savings,2019-06-30,Medium
+C00107,61,Female,Tumakuru,Student,Salary,2022-10-13,Low
+C00108,31,Prefer not to say,Tumakuru,Premium,Salary,2021-03-26,Medium
+C00109,18,Male,Pune,Retail,Savings,2024-06-29,Medium
+C00110,48,Female,Mumbai,Student,Current,2023-10-14,Low
+C00111,40,Prefer not to say,Hyderabad,Retail,Current,2019-12-22,Medium
+C00112,25,Female,Tumakuru,Premium,Current,2018-06-20,Low
+C00113,49,Prefer not to say,Mumbai,Retail,Current,2020-03-19,High
+C00114,50,Male,Hyderabad,Salary,Salary,2018-06-04,High
+C00115,52,Male,Delhi,Student,Current,2018-12-05,Medium
+C00116,24,Male,Bengaluru,Premium,Savings,2024-08-18,Low
+C00117,38,Female,Mysuru,Retail,Current,2019-10-09,Low
+C00118,75,Male,Mysuru,Premium,Salary,2018-06-28,Low
+C00119,28,Male,Kochi,Retail,Salary,2018-02-04,Medium
+C00120,44,Prefer not to say,Hyderabad,Student,Savings,2023-07-18,Low
+C00121,43,Female,Kochi,Student,Salary,2020-12-19,Medium
+C00122,57,Male,Delhi,Salary,Current,2024-08-09,Low
+C00123,68,Male,Pune,Premium,Current,2022-07-09,Medium
+C00124,20,Male,Delhi,Salary,Salary,2024-01-01,Medium
+C00125,73,Female,Hyderabad,Salary,Salary,2024-06-28,Low
+C00126,46,Prefer not to say,Hyderabad,Student,Current,2024-12-17,Medium
+C00127,66,Male,Delhi,Salary,Salary,2018-09-28,Low
+C00128,57,Female,Tumakuru,Salary,Savings,2020-12-10,Low
+C00129,75,Female,Chennai,Premium,Savings,2018-07-08,Low
+C00130,67,Prefer not to say,Coimbatore,Premium,Current,2019-09-18,High
+C00131,24,Prefer not to say,Kochi,Retail,Savings,2019-02-15,Low
+C00132,51,Male,Kochi,Retail,Savings,2019-02-26,Low
+C00133,54,Male,Kochi,Student,Current,2022-07-31,Low
+C00134,59,Male,Delhi,Student,Savings,2021-09-13,Low
+C00135,71,Prefer not to say,Delhi,Premium,Salary,2019-01-28,Low
+C00136,52,Prefer not to say,Coimbatore,Student,Current,2019-04-10,High
+C00137,45,Prefer not to say,Kochi,Salary,Current,2020-01-30,Medium
+C00138,27,Female,Mumbai,Salary,Salary,2019-09-15,Low
+C00139,68,Male,Hyderabad,Retail,Current,2020-05-17,Low
+C00140,56,Female,Kochi,Student,Current,2023-12-24,Medium
+C00141,36,Female,Chennai,Premium,Current,2024-06-10,Low
+C00142,49,Male,Mysuru,Student,Current,2019-12-05,Medium
+C00143,63,Male,Delhi,Student,Current,2020-06-05,Low
+C00144,54,Prefer not to say,Mumbai,Salary,Savings,2024-07-28,High
+C00145,69,Prefer not to say,Mysuru,Salary,Salary,2018-02-01,Medium
+C00146,48,Prefer not to say,Delhi,Premium,Salary,2021-12-24,Medium
+C00147,47,Male,Mumbai,Premium,Salary,2020-04-21,Medium
+C00148,60,Prefer not to say,Pune,Salary,Current,2023-08-01,Low
+C00149,50,Prefer not to say,Delhi,Student,Salary,2018-07-27,Low
+C00150,69,Prefer not to say,Chennai,Salary,Savings,2019-04-23,Low
+C00151,72,Male,Kochi,Student,Current,2023-08-28,Low
+C00152,37,Female,Tumakuru,Salary,Savings,2021-03-01,Medium
+C00153,37,Male,Chennai,Student,Savings,2022-11-26,Low
+C00154,63,Male,Hyderabad,Salary,Savings,2018-07-04,Medium
+C00155,27,Male,Chennai,Student,Current,2021-05-28,Medium
+C00156,27,Prefer not to say,Kochi,Student,Savings,2024-05-27,Low
+C00157,59,Prefer not to say,Hyderabad,Retail,Salary,2019-11-29,Medium
+C00158,52,Prefer not to say,Mumbai,Premium,Current,2025-02-06,Medium
+C00159,20,Male,Mysuru,Student,Current,2024-01-24,Medium
+C00160,43,Male,Bengaluru,Retail,Savings,2022-06-23,Low
+C00161,73,Prefer not to say,Pune,Student,Current,2022-07-06,Medium
+C00162,44,Male,Tumakuru,Retail,Savings,2021-10-17,Medium
+C00163,56,Prefer not to say,Bengaluru,Premium,Salary,2024-06-18,Low
+C00164,68,Male,Hyderabad,Salary,Savings,2021-12-14,Low
+C00165,23,Female,Kochi,Student,Savings,2022-07-14,Low
+C00166,20,Male,Chennai,Retail,Salary,2021-05-21,Medium
+C00167,68,Prefer not to say,Kochi,Student,Current,2021-11-30,Medium
+C00168,24,Male,Bengaluru,Retail,Salary,2023-01-25,Low
+C00169,24,Male,Pune,Salary,Savings,2020-03-07,Low
+C00170,59,Female,Kochi,Retail,Salary,2022-02-11,Low
+C00171,25,Male,Tumakuru,Premium,Current,2024-08-20,Low
+C00172,70,Male,Coimbatore,Student,Salary,2024-07-14,Low
+C00173,50,Prefer not to say,Kochi,Premium,Current,2024-01-25,Low
+C00174,25,Female,Mumbai,Premium,Savings,2024-06-09,Medium
+C00175,18,Female,Kochi,Salary,Savings,2023-06-30,Low
+C00176,67,Prefer not to say,Pune,Salary,Salary,2020-06-10,Low
+C00177,34,Prefer not to say,Bengaluru,Student,Savings,2019-06-16,Low
+C00178,31,Male,Mumbai,Student,Salary,2021-12-06,Low
+C00179,75,Male,Delhi,Student,Savings,2022-08-15,Low
+C00180,21,Male,Chennai,Student,Current,2019-05-18,Low
+C00181,65,Female,Chennai,Retail,Current,2024-02-19,Medium
+C00182,66,Prefer not to say,Hyderabad,Salary,Salary,2018-11-08,High
+C00183,40,Female,Chennai,Salary,Salary,2021-07-13,Low
+C00184,33,Male,Kochi,Salary,Current,2022-06-07,Low
+C00185,55,Male,Tumakuru,Retail,Salary,2021-01-28,Low
+C00186,34,Female,Tumakuru,Retail,Savings,2025-01-21,Low
+C00187,72,Male,Kochi,Salary,Current,2021-06-20,Low
+C00188,44,Female,Bengaluru,Retail,Current,2024-03-13,Low
+C00189,46,Prefer not to say,Delhi,Student,Current,2020-06-17,Medium
+C00190,62,Prefer not to say,Pune,Salary,Current,2021-08-16,Low
+C00191,32,Prefer not to say,Delhi,Retail,Current,2022-03-21,Low
+C00192,32,Prefer not to say,Pune,Premium,Salary,2024-06-23,High
+C00193,67,Male,Bengaluru,Retail,Current,2022-11-07,Low
+C00194,57,Female,Chennai,Student,Salary,2021-06-04,Low
+C00195,63,Male,Delhi,Retail,Savings,2023-04-23,Low
+C00196,69,Male,Delhi,Salary,Current,2020-06-14,Low
+C00197,20,Male,Mumbai,Retail,Savings,2019-01-16,High
+C00198,67,Prefer not to say,Pune,Student,Salary,2018-03-19,Low
+C00199,72,Male,Chennai,Premium,Savings,2020-09-22,Low
+C00200,27,Male,Bengaluru,Premium,Current,2024-02-18,Medium
+C00201,47,Female,Mysuru,Retail,Salary,2022-09-07,Low
+C00202,42,Female,Delhi,Salary,Savings,2020-02-21,Medium
+C00203,49,Prefer not to say,Pune,Retail,Savings,2019-07-25,Low
+C00204,26,Female,Chennai,Student,Salary,2020-05-25,Low
+C00205,36,Prefer not to say,Mysuru,Retail,Savings,2023-01-01,Low
+C00206,37,Prefer not to say,Mysuru,Student,Savings,2019-07-12,Medium
+C00207,40,Male,Mysuru,Salary,Current,2021-07-20,Low
+C00208,36,Male,Delhi,Retail,Current,2022-07-26,Low
+C00209,28,Prefer not to say,Bengaluru,Premium,Savings,2019-10-07,Low
+C00210,61,Female,Delhi,Student,Current,2022-02-27,Medium
+C00211,59,Prefer not to say,Tumakuru,Salary,Salary,2019-09-15,Low
+C00212,27,Prefer not to say,Mumbai,Retail,Savings,2021-12-09,Low
+C00213,65,Male,Mysuru,Retail,Savings,2022-07-02,High
+C00214,34,Male,Coimbatore,Premium,Savings,2024-10-12,Low
+C00215,31,Male,Bengaluru,Retail,Savings,2020-06-02,Low
+C00216,75,Male,Kochi,Student,Current,2024-04-06,Low
+C00217,46,Male,Bengaluru,Premium,Salary,2023-09-18,Medium
+C00218,71,Female,Tumakuru,Retail,Savings,2022-06-08,Medium
+C00219,23,Prefer not to say,Bengaluru,Retail,Current,2020-10-26,Medium
+C00220,31,Female,Mumbai,Student,Salary,2019-07-17,Medium
+C00221,57,Male,Coimbatore,Student,Savings,2022-09-17,Medium
+C00222,37,Male,Chennai,Salary,Salary,2018-09-01,Low
+C00223,57,Male,Delhi,Salary,Salary,2025-01-22,Low
+C00224,38,Female,Bengaluru,Premium,Current,2018-08-31,Low
+C00225,26,Male,Mumbai,Premium,Salary,2019-12-17,Medium
+C00226,71,Male,Mysuru,Retail,Salary,2020-08-08,Low
+C00227,28,Male,Hyderabad,Salary,Savings,2025-01-20,Medium
+C00228,75,Prefer not to say,Delhi,Student,Salary,2021-07-18,Low
+C00229,62,Female,Hyderabad,Salary,Current,2023-09-17,Low
+C00230,74,Female,Hyderabad,Premium,Salary,2019-07-20,Low
+C00231,56,Male,Hyderabad,Premium,Savings,2021-09-14,Low
+C00232,26,Male,Chennai,Student,Savings,2019-01-01,Low
+C00233,66,Male,Delhi,Premium,Current,2025-02-10,Medium
+C00234,68,Male,Pune,Salary,Salary,2020-01-21,Low
+C00235,75,Female,Kochi,Premium,Salary,2022-03-10,Low
+C00236,49,Female,Mumbai,Retail,Current,2022-04-19,Low
+C00237,34,Prefer not to say,Pune,Premium,Current,2018-01-18,Medium
+C00238,42,Prefer not to say,Pune,Student,Salary,2019-02-11,Low
+C00239,33,Male,Tumakuru,Premium,Savings,2024-10-03,Low
+C00240,47,Male,Pune,Premium,Current,2020-08-21,High
+C00241,20,Prefer not to say,Bengaluru,Student,Salary,2019-12-26,Medium
+C00242,71,Male,Mumbai,Student,Current,2020-11-08,Low
+C00243,24,Male,Tumakuru,Retail,Savings,2024-07-08,Low
+C00244,60,Female,Delhi,Salary,Salary,2021-11-04,Low
+C00245,50,Male,Bengaluru,Premium,Salary,2023-08-15,Low
+C00246,73,Female,Delhi,Student,Savings,2022-04-27,Low
+C00247,48,Prefer not to say,Mumbai,Student,Savings,2019-07-10,Medium
+C00248,53,Female,Bengaluru,Student,Salary,2019-08-02,Low
+C00249,39,Female,Mysuru,Premium,Salary,2018-05-07,Medium
+C00250,73,Female,Tumakuru,Retail,Salary,2024-06-28,Medium
+C00251,52,Female,Coimbatore,Premium,Salary,2022-08-20,Low
+C00252,51,Male,Chennai,Student,Current,2020-11-30,Medium
+C00253,62,Male,Mumbai,Student,Current,2023-10-14,Medium
+C00254,53,Female,Tumakuru,Student,Current,2021-09-06,Low
+C00255,57,Prefer not to say,Hyderabad,Salary,Current,2021-05-28,Medium
+C00256,44,Male,Mysuru,Premium,Savings,2021-12-26,Medium
+C00257,61,Female,Mysuru,Student,Current,2025-01-10,Low
+C00258,20,Male,Kochi,Salary,Salary,2020-05-05,Medium
+C00259,30,Prefer not to say,Delhi,Retail,Savings,2022-05-07,Low
+C00260,48,Female,Mumbai,Retail,Current,2024-10-12,Medium
+C00261,69,Prefer not to say,Kochi,Salary,Salary,2018-09-27,Low
+C00262,53,Female,Kochi,Salary,Savings,2020-12-06,Medium
+C00263,18,Prefer not to say,Tumakuru,Retail,Savings,2021-03-03,Low
+C00264,45,Prefer not to say,Coimbatore,Salary,Current,2018-02-02,Low
+C00265,57,Female,Bengaluru,Student,Savings,2018-05-08,Medium
+C00266,33,Female,Chennai,Retail,Salary,2020-12-26,Low
+C00267,56,Prefer not to say,Chennai,Salary,Savings,2025-02-03,Medium
+C00268,34,Female,Coimbatore,Salary,Current,2021-06-11,Low
+C00269,63,Male,Mysuru,Student,Salary,2023-01-24,Low
+C00270,54,Male,Bengaluru,Student,Salary,2024-04-25,Low
+C00271,55,Prefer not to say,Bengaluru,Salary,Savings,2020-08-22,Low
+C00272,26,Prefer not to say,Mysuru,Retail,Salary,2020-10-11,Low
+C00273,34,Prefer not to say,Coimbatore,Retail,Salary,2024-02-04,Low
+C00274,40,Prefer not to say,Chennai,Premium,Current,2023-01-01,Medium
+C00275,75,Prefer not to say,Tumakuru,Premium,Salary,2019-08-22,Low
+C00276,24,Female,Bengaluru,Student,Savings,2020-11-18,Low
+C00277,32,Female,Mysuru,Retail,Salary,2018-10-26,Low
+C00278,44,Male,Pune,Student,Current,2021-05-12,High
+C00279,32,Male,Kochi,Student,Salary,2024-01-03,Low
+C00280,23,Male,Pune,Premium,Current,2023-11-21,Low
+C00281,46,Male,Coimbatore,Premium,Savings,2024-08-03,Low
+C00282,32,Prefer not to say,Hyderabad,Student,Savings,2021-06-03,Low
+C00283,53,Female,Tumakuru,Salary,Savings,2021-11-04,Low
+C00284,41,Female,Chennai,Premium,Savings,2021-02-21,Low
+C00285,50,Female,Kochi,Premium,Salary,2019-10-03,Medium
+C00286,29,Prefer not to say,Kochi,Retail,Salary,2022-09-23,Medium
+C00287,30,Prefer not to say,Chennai,Premium,Current,2020-02-02,Medium
+C00288,66,Male,Chennai,Student,Savings,2024-08-01,Low
+C00289,35,Female,Tumakuru,Student,Current,2021-08-15,Low
+C00290,63,Male,Bengaluru,Retail,Savings,2024-04-25,Low
+C00291,41,Female,Chennai,Salary,Savings,2023-08-07,Low
+C00292,58,Male,Delhi,Salary,Savings,2023-06-07,Low
+C00293,63,Male,Pune,Student,Salary,2021-09-16,Low
+C00294,72,Female,Pune,Premium,Savings,2020-08-12,Low
+C00295,59,Female,Delhi,Premium,Salary,2024-03-28,Low
+C00296,46,Prefer not to say,Coimbatore,Retail,Current,2021-02-23,Low
+C00297,39,Prefer not to say,Tumakuru,Student,Salary,2023-07-12,Low
+C00298,31,Male,Mumbai,Salary,Current,2023-12-16,Low
+C00299,30,Prefer not to say,Bengaluru,Retail,Savings,2024-02-20,Low
+C00300,21,Male,Coimbatore,Retail,Current,2020-01-24,Low
+C00301,67,Male,Mumbai,Student,Savings,2024-11-19,High
+C00302,26,Prefer not to say,Hyderabad,Student,Savings,2024-12-20,Low
+C00303,33,Male,Delhi,Salary,Savings,2023-11-20,Low
+C00304,70,Female,Mysuru,Student,Current,2024-04-02,Low
+C00305,66,Female,Mysuru,Student,Savings,2019-02-27,Low
+C00306,58,Prefer not to say,Kochi,Premium,Salary,2018-04-08,Low
+C00307,52,Prefer not to say,Bengaluru,Student,Current,2019-08-05,Medium
+C00308,70,Prefer not to say,Chennai,Salary,Salary,2021-07-26,Medium
+C00309,52,Female,Hyderabad,Student,Current,2022-08-17,Low
+C00310,35,Female,Kochi,Salary,Salary,2020-07-03,Medium
+C00311,38,Prefer not to say,Mysuru,Premium,Salary,2018-06-08,Medium
+C00312,74,Female,Bengaluru,Salary,Salary,2023-08-10,Low
+C00313,19,Female,Bengaluru,Retail,Current,2023-12-26,Low
+C00314,57,Male,Tumakuru,Salary,Savings,2020-01-10,Low
+C00315,62,Prefer not to say,Coimbatore,Salary,Current,2024-08-11,Medium
+C00316,28,Prefer not to say,Coimbatore,Salary,Current,2018-12-02,High
+C00317,18,Male,Coimbatore,Student,Savings,2019-03-19,High
+C00318,19,Male,Mysuru,Student,Salary,2020-04-20,Medium
+C00319,55,Prefer not to say,Mysuru,Retail,Salary,2022-09-23,Low
+C00320,57,Prefer not to say,Hyderabad,Salary,Salary,2018-11-05,Low
+C00321,60,Prefer not to say,Delhi,Premium,Salary,2023-08-20,Medium
+C00322,23,Male,Coimbatore,Student,Current,2024-02-22,Low
+C00323,60,Prefer not to say,Pune,Retail,Current,2019-10-11,Medium
+C00324,69,Prefer not to say,Mysuru,Salary,Current,2020-07-16,High
+C00325,20,Female,Tumakuru,Salary,Savings,2023-12-21,Low
+C00326,25,Female,Tumakuru,Retail,Salary,2020-06-27,Medium
+C00327,56,Female,Mumbai,Premium,Savings,2024-12-04,Medium
+C00328,75,Male,Bengaluru,Premium,Current,2022-08-13,Low
+C00329,26,Prefer not to say,Chennai,Student,Savings,2024-08-24,Low
+C00330,35,Prefer not to say,Bengaluru,Retail,Savings,2021-05-19,Low
+C00331,55,Prefer not to say,Delhi,Premium,Salary,2022-10-14,Low
+C00332,68,Prefer not to say,Pune,Salary,Savings,2018-10-12,Medium
+C00333,32,Prefer not to say,Chennai,Student,Savings,2019-10-26,Medium
+C00334,75,Prefer not to say,Chennai,Premium,Savings,2018-05-20,Medium
+C00335,22,Prefer not to say,Bengaluru,Student,Salary,2022-10-02,Low
+C00336,40,Male,Chennai,Salary,Salary,2019-02-12,Medium
+C00337,37,Female,Bengaluru,Retail,Savings,2022-03-26,Low
+C00338,43,Prefer not to say,Delhi,Retail,Current,2025-01-04,High
+C00339,72,Male,Tumakuru,Retail,Current,2018-05-09,Medium
+C00340,46,Female,Tumakuru,Salary,Current,2021-02-02,Medium
+C00341,48,Prefer not to say,Hyderabad,Premium,Current,2018-09-05,Medium
+C00342,27,Male,Mysuru,Salary,Salary,2018-12-02,Low
+C00343,40,Prefer not to say,Delhi,Retail,Current,2022-11-05,Medium
+C00344,22,Male,Delhi,Salary,Savings,2023-06-01,High
+C00345,54,Male,Chennai,Premium,Current,2020-05-26,High
+C00346,41,Male,Coimbatore,Retail,Salary,2020-09-01,Low
+C00347,69,Female,Kochi,Student,Savings,2018-09-02,Medium
+C00348,74,Female,Pune,Retail,Savings,2023-01-21,Medium
+C00349,66,Male,Chennai,Premium,Current,2020-01-02,Low
+C00350,33,Male,Hyderabad,Retail,Current,2018-10-13,Low
+C00351,27,Male,Mumbai,Salary,Salary,2019-10-26,Low
+C00352,31,Male,Delhi,Student,Salary,2021-04-15,Low
+C00353,55,Male,Kochi,Retail,Savings,2019-07-08,Medium
+C00354,64,Female,Kochi,Premium,Current,2022-08-27,Medium
+C00355,70,Female,Mysuru,Student,Savings,2023-06-12,Low
+C00356,21,Female,Mysuru,Retail,Salary,2019-06-17,Low
+C00357,61,Prefer not to say,Tumakuru,Retail,Salary,2019-06-19,Low
+C00358,68,Male,Coimbatore,Retail,Savings,2018-10-05,Low
+C00359,22,Male,Chennai,Retail,Salary,2024-02-18,Low
+C00360,39,Prefer not to say,Tumakuru,Premium,Salary,2022-12-16,Low
+C00361,67,Female,Hyderabad,Salary,Savings,2020-07-01,Medium
+C00362,55,Male,Tumakuru,Student,Savings,2019-12-23,Low
+C00363,38,Female,Bengaluru,Retail,Salary,2024-01-10,Low
+C00364,20,Female,Mysuru,Retail,Savings,2024-08-28,Low
+C00365,25,Female,Chennai,Salary,Salary,2022-08-13,Medium
+C00366,19,Male,Delhi,Salary,Savings,2023-03-13,Medium
+C00367,31,Male,Mysuru,Retail,Savings,2024-05-23,Medium
+C00368,36,Prefer not to say,Coimbatore,Student,Salary,2018-09-21,Low
+C00369,28,Male,Delhi,Premium,Salary,2018-01-18,Low
+C00370,45,Prefer not to say,Chennai,Premium,Current,2021-10-29,High
+C00371,54,Prefer not to say,Mysuru,Retail,Current,2020-12-12,Medium
+C00372,74,Prefer not to say,Bengaluru,Retail,Savings,2020-11-14,Low
+C00373,63,Prefer not to say,Mumbai,Retail,Savings,2021-07-14,Low
+C00374,27,Female,Tumakuru,Premium,Current,2023-08-23,Low
+C00375,66,Male,Tumakuru,Salary,Current,2019-04-25,Low
+C00376,65,Prefer not to say,Tumakuru,Premium,Salary,2023-10-07,Low
+C00377,53,Male,Mysuru,Retail,Salary,2022-05-14,Low
+C00378,47,Prefer not to say,Delhi,Student,Savings,2018-11-17,Low
+C00379,42,Prefer not to say,Mumbai,Retail,Salary,2024-08-01,Low
+C00380,18,Female,Kochi,Premium,Savings,2022-11-25,Low
+C00381,43,Female,Chennai,Salary,Salary,2020-05-22,High
+C00382,45,Female,Coimbatore,Premium,Current,2019-05-13,High
+C00383,49,Female,Mumbai,Premium,Savings,2020-12-26,Medium
+C00384,58,Female,Mysuru,Student,Current,2022-04-11,Low
+C00385,28,Male,Delhi,Retail,Savings,2024-04-01,Low
+C00386,60,Female,Hyderabad,Premium,Savings,2022-02-23,Low
+C00387,22,Male,Tumakuru,Salary,Salary,2021-05-16,Medium
+C00388,31,Prefer not to say,Delhi,Salary,Current,2020-11-14,Low
+C00389,23,Male,Tumakuru,Retail,Current,2021-12-17,Low
+C00390,73,Prefer not to say,Mumbai,Salary,Current,2021-10-05,Low
+C00391,31,Male,Mysuru,Salary,Current,2023-06-14,Low
+C00392,18,Female,Pune,Salary,Current,2022-09-06,Medium
+C00393,71,Male,Bengaluru,Premium,Savings,2022-03-19,Low
+C00394,40,Prefer not to say,Kochi,Student,Current,2024-12-08,Medium
+C00395,74,Male,Kochi,Student,Current,2019-10-25,Low
+C00396,39,Male,Bengaluru,Retail,Savings,2024-09-25,Low
+C00397,52,Female,Coimbatore,Salary,Current,2023-01-04,Low
+C00398,72,Male,Tumakuru,Salary,Salary,2018-12-03,Low
+C00399,24,Female,Kochi,Premium,Current,2021-04-27,Low
+C00400,31,Prefer not to say,Delhi,Retail,Savings,2019-12-31,Low
+C00401,74,Female,Hyderabad,Student,Savings,2018-09-07,Medium
+C00402,70,Male,Coimbatore,Retail,Savings,2023-02-23,Low
+C00403,64,Female,Kochi,Salary,Current,2019-04-04,Low
+C00404,18,Male,Delhi,Retail,Savings,2019-09-30,Medium
+C00405,36,Female,Chennai,Retail,Current,2019-06-07,Low
+C00406,52,Male,Mumbai,Salary,Current,2020-09-04,Medium
+C00407,25,Prefer not to say,Hyderabad,Student,Savings,2019-02-14,Low
+C00408,53,Prefer not to say,Chennai,Salary,Salary,2020-02-05,Low
+C00409,22,Female,Delhi,Student,Salary,2023-03-23,Low
+C00410,21,Prefer not to say,Hyderabad,Salary,Savings,2021-07-07,Medium
+C00411,48,Prefer not to say,Hyderabad,Student,Salary,2020-11-13,Low
+C00412,27,Prefer not to say,Coimbatore,Retail,Salary,2024-01-19,Low
+C00413,53,Male,Mysuru,Salary,Current,2021-07-10,Low
+C00414,56,Male,Hyderabad,Retail,Savings,2018-06-12,Low
+C00415,47,Prefer not to say,Bengaluru,Premium,Current,2025-01-28,Low
+C00416,61,Male,Mumbai,Student,Current,2023-12-30,Low
+C00417,27,Male,Mumbai,Retail,Current,2021-08-30,High
+C00418,59,Male,Kochi,Student,Salary,2022-10-12,Low
+C00419,35,Prefer not to say,Mysuru,Student,Salary,2018-01-17,Medium
+C00420,36,Prefer not to say,Delhi,Student,Savings,2022-12-02,Low
+C00421,69,Prefer not to say,Bengaluru,Salary,Savings,2019-02-27,Medium
+C00422,50,Female,Coimbatore,Retail,Salary,2019-09-17,Low
+C00423,26,Male,Pune,Premium,Salary,2021-02-21,Low
+C00424,42,Female,Delhi,Premium,Salary,2024-03-10,Low
+C00425,69,Male,Tumakuru,Student,Current,2018-07-22,Medium
+C00426,52,Prefer not to say,Chennai,Salary,Salary,2024-06-03,Low
+C00427,50,Male,Bengaluru,Salary,Salary,2021-03-07,Low
+C00428,40,Female,Tumakuru,Student,Savings,2024-06-12,Low
+C00429,50,Male,Chennai,Premium,Salary,2021-10-24,Low
+C00430,67,Female,Kochi,Retail,Salary,2023-02-10,Low
+C00431,46,Female,Hyderabad,Salary,Salary,2022-04-21,Medium
+C00432,38,Female,Tumakuru,Student,Savings,2025-01-21,Low
+C00433,21,Male,Delhi,Salary,Current,2020-09-23,Low
+C00434,73,Male,Pune,Salary,Current,2022-11-12,Low
+C00435,28,Male,Mumbai,Retail,Current,2018-03-23,High
+C00436,51,Prefer not to say,Mumbai,Retail,Savings,2023-01-10,Low
+C00437,62,Prefer not to say,Kochi,Salary,Current,2018-03-13,Low
+C00438,75,Female,Coimbatore,Student,Current,2020-07-21,Medium
+C00439,19,Male,Chennai,Retail,Savings,2019-12-30,Medium
+C00440,68,Prefer not to say,Tumakuru,Student,Salary,2022-05-03,Low
+C00441,22,Female,Tumakuru,Retail,Current,2018-10-25,Low
+C00442,21,Female,Coimbatore,Student,Salary,2020-05-08,Medium
+C00443,33,Prefer not to say,Bengaluru,Salary,Current,2023-03-19,Medium
+C00444,32,Male,Pune,Salary,Savings,2023-07-20,Low
+C00445,25,Female,Chennai,Retail,Salary,2018-10-27,Medium
+C00446,33,Female,Kochi,Premium,Savings,2019-11-18,Medium
+C00447,19,Female,Chennai,Salary,Salary,2022-04-27,Medium
+C00448,35,Prefer not to say,Chennai,Student,Salary,2023-05-01,Medium
+C00449,23,Prefer not to say,Kochi,Retail,Salary,2020-08-02,Medium
+C00450,38,Prefer not to say,Tumakuru,Student,Current,2021-04-23,Low
+C00451,19,Prefer not to say,Pune,Premium,Current,2021-03-12,Medium
+C00452,58,Male,Mysuru,Retail,Current,2020-07-10,Low
+C00453,48,Female,Mysuru,Retail,Savings,2023-03-21,Low
+C00454,67,Female,Bengaluru,Student,Current,2021-02-10,Low
+C00455,65,Prefer not to say,Mysuru,Salary,Savings,2023-06-29,Low
+C00456,74,Prefer not to say,Mumbai,Student,Salary,2021-04-08,Medium
+C00457,32,Female,Mumbai,Premium,Current,2021-01-04,Low
+C00458,19,Female,Kochi,Retail,Salary,2024-10-07,Low
+C00459,62,Male,Bengaluru,Salary,Current,2018-03-02,Medium
+C00460,74,Prefer not to say,Chennai,Premium,Salary,2021-09-29,Low
+C00461,34,Female,Bengaluru,Student,Current,2024-06-05,Low
+C00462,66,Male,Mumbai,Student,Current,2018-10-21,Low
+C00463,53,Female,Mysuru,Salary,Salary,2019-04-10,Low
+C00464,47,Male,Delhi,Student,Salary,2023-09-23,Low
+C00465,63,Female,Coimbatore,Premium,Savings,2018-03-27,Medium
+C00466,73,Prefer not to say,Kochi,Premium,Salary,2023-03-06,Low
+C00467,53,Male,Bengaluru,Salary,Salary,2018-07-25,Low
+C00468,52,Prefer not to say,Pune,Salary,Savings,2018-11-16,Low
+C00469,69,Prefer not to say,Kochi,Premium,Salary,2021-07-12,Low
+C00470,27,Female,Tumakuru,Student,Current,2020-06-11,High
+C00471,56,Male,Kochi,Student,Savings,2024-02-18,Low
+C00472,29,Female,Pune,Premium,Current,2024-03-08,Low
+C00473,59,Male,Delhi,Salary,Salary,2018-07-07,Low
+C00474,25,Female,Hyderabad,Retail,Current,2023-10-23,Medium
+C00475,23,Female,Chennai,Salary,Salary,2018-06-27,Low
+C00476,41,Prefer not to say,Mysuru,Salary,Current,2020-01-23,Low
+C00477,40,Female,Bengaluru,Salary,Salary,2019-08-02,Low
+C00478,67,Female,Mumbai,Student,Salary,2018-01-03,Low
+C00479,71,Prefer not to say,Tumakuru,Salary,Savings,2021-05-06,Low
+C00480,50,Female,Mumbai,Retail,Savings,2019-12-02,Low
+C00481,43,Male,Pune,Retail,Savings,2018-12-31,Medium
+C00482,45,Female,Mysuru,Salary,Savings,2023-01-09,Low
+C00483,19,Prefer not to say,Kochi,Premium,Salary,2023-05-26,Low
+C00484,60,Female,Coimbatore,Premium,Savings,2020-05-02,Low
+C00485,68,Female,Coimbatore,Premium,Salary,2023-09-25,Low
+C00486,61,Prefer not to say,Delhi,Salary,Current,2024-12-27,Low
+C00487,50,Female,Kochi,Salary,Salary,2021-09-28,Medium
+C00488,38,Prefer not to say,Kochi,Retail,Current,2019-11-03,High
+C00489,56,Prefer not to say,Tumakuru,Student,Current,2020-02-06,Medium
+C00490,40,Female,Bengaluru,Salary,Savings,2021-05-24,Low
+C00491,68,Female,Kochi,Salary,Salary,2023-10-27,Medium
+C00492,29,Male,Kochi,Salary,Savings,2024-12-05,Low
+C00493,34,Female,Kochi,Premium,Current,2021-11-10,High
+C00494,49,Female,Delhi,Premium,Savings,2022-03-22,Low
+C00495,21,Female,Tumakuru,Premium,Current,2020-02-09,Low
+C00496,70,Female,Hyderabad,Retail,Savings,2022-09-19,Medium
+C00497,34,Prefer not to say,Coimbatore,Premium,Salary,2021-04-09,Low
+C00498,27,Prefer not to say,Bengaluru,Salary,Savings,2018-03-01,Medium
+C00499,23,Male,Coimbatore,Salary,Savings,2023-03-05,Low
+C00500,71,Prefer not to say,Bengaluru,Premium,Savings,2023-12-25,Low

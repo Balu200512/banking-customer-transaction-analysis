@@ -2,68 +2,67 @@
 
 ## 1. Project Overview
 
-The **Banking Customer & Transaction Analysis** project is a data analytics project developed using SQL, Python, Excel, and Power BI. It analyzes banking customer information, account details, transaction activity, banking channels, and transaction statuses to generate meaningful business insights.
+The **Banking Customer & Transaction Analysis** project uses synthetic banking data to explore customer segments, account information, transaction activity, channel performance, and transaction status. It demonstrates practical analytics skills using **SQL, Python, Excel, and Power BI**.
 
-The project includes synthetic sample datasets, SQL database scripts, Python analysis code, Power BI DAX measures, a dashboard setup guide, and an Excel workbook.
+The project includes sample CSV datasets, a relational database schema, analytical SQL queries, a Python analysis script, Power BI DAX measures, a dashboard build guide, and an Excel workbook.
 
-This project demonstrates practical skills in data analysis, database management, data validation, reporting, and business intelligence.
+All records are synthetic and created for educational and portfolio purposes. They do not represent real customers, accounts, or bank transactions.
 
 ## 2. Project Objectives
 
 - Analyze customer demographics and customer segments.
-- Understand account types and account status distribution.
-- Analyze transaction counts and transaction values.
+- Understand account distribution and account status.
+- Measure transaction counts and transaction values.
 - Compare transaction activity across banking channels.
-- Monitor successful, failed, pending, and reversed transactions.
+- Track successful, failed, pending, and reversed transactions.
 - Identify transactions flagged for additional review.
 - Analyze monthly transaction trends.
-- Use SQL to perform banking data analysis.
-- Automate data validation and reporting using Python.
+- Build a structured relational database using SQL.
+- Automate validation and report generation with Python.
 - Create an interactive Power BI dashboard.
 
 ## 3. Technologies Used
 
 | Technology | Purpose |
 |---|---|
-| SQL | Database queries and transaction analysis |
-| SQLite | Relational database storage |
+| SQL | Data model and analytical queries |
+| SQLite | Local relational database |
 | Python | Data validation and analysis |
 | Pandas | Data manipulation |
-| Matplotlib | Data visualization |
-| Microsoft Excel | Sample data workbook |
+| Matplotlib | Chart generation |
+| Excel | Sample data workbook |
 | Power BI | Interactive dashboard |
 | DAX | KPI calculations |
-| CSV | Dataset storage |
+| CSV | Portable datasets |
 | GitHub | Version control and portfolio sharing |
 
 ## 4. Project Features
 
-- Customer demographic analysis.
-- Customer segment analysis.
+- Customer demographic and segment analysis.
 - Account type and account status analysis.
 - Transaction trend analysis.
-- Channel-wise transaction analysis.
-- Average transaction amount calculation.
+- Channel-wise transaction performance.
+- Average transaction amount calculations.
 - Transaction status monitoring.
-- Flagged transaction review.
-- SQL joins and aggregate queries.
+- Flagged transaction review list.
+- SQL joins and aggregation queries.
 - Python data validation.
 - SQLite database creation.
-- Automated report generation.
-- Power BI dashboard measures.
-- Excel workbook containing sample datasets.
+- CSV and Markdown report generation.
+- Power BI measures and dashboard instructions.
+- Excel workbook containing sample data.
 
-## 5. Dataset Description
+## 5. Sample Dataset
 
-The project uses synthetic banking data created for educational and portfolio purposes. The data does not represent real customers, bank accounts, or financial transactions.
+The project contains three synthetic datasets.
 
-| Dataset | Number of Records | Description |
+| Dataset | Records | Description |
 |---|---:|---|
 | Customers | 500 | Customer demographics and segments |
-| Accounts | 700 | Account details and statuses |
-| Transactions | 6,000 | Transaction amounts, dates, channels, and statuses |
+| Accounts | 700 | Customer-linked bank accounts |
+| Transactions | 6,000 | Transaction dates, amounts, channels, and statuses |
 
-The sample transaction period covers calendar year 2025. All monetary values are represented in INR.
+The sample transaction period is calendar year 2025. All transaction values and opening balances are denominated in INR.
 
 ### Dataset files
 
@@ -71,7 +70,7 @@ The sample transaction period covers calendar year 2025. All monetary values are
 - `data/accounts.csv`
 - `data/transactions.csv`
 
-The datasets are also included in `Banking_Analysis_Sample_Data.xlsx`.
+The same datasets are included in `Banking_Analysis_Sample_Data.xlsx`.
 
 ## 6. Repository Structure
 
@@ -103,15 +102,15 @@ banking-customer-transaction-analysis/
 └── README.md
 ```
 
-The SQLite database and report files are generated locally when the Python script is executed.
+The SQLite database and report outputs are generated locally when the Python script is run.
 
 ## 7. Database Schema
 
-The project contains three main relational tables.
+The project uses three main tables.
 
 ### 7.1 Customers
 
-Stores customer information, including:
+Contains customer-level information such as:
 
 - `customer_id`
 - `age`
@@ -124,7 +123,7 @@ Stores customer information, including:
 
 ### 7.2 Accounts
 
-Stores account-level information, including:
+Contains account-level information such as:
 
 - `account_id`
 - `customer_id`
@@ -136,7 +135,7 @@ Stores account-level information, including:
 
 ### 7.3 Transactions
 
-Stores transaction information, including:
+Contains transaction-level information such as:
 
 - `transaction_id`
 - `transaction_date`
@@ -149,49 +148,47 @@ Stores transaction information, including:
 - `transaction_status`
 - `is_suspicious_flag`
 
-### Relationships
+### Table relationships
 
-- `customers.customer_id` connects to `accounts.customer_id`.
-- `accounts.account_id` connects to `transactions.account_id`.
+- `customers.customer_id` → `accounts.customer_id`
+- `accounts.account_id` → `transactions.account_id`
 
-The database definitions are provided in `sql/schema.sql`.
+The schema is defined in `sql/schema.sql`.
 
 ## 8. SQL Analysis
 
-The file `sql/analysis_queries.sql` contains SQL queries for analyzing banking activity.
-
-The queries cover:
+The `sql/analysis_queries.sql` file includes queries for:
 
 1. Monthly successful transaction counts and values.
-2. Transaction performance by banking channel.
+2. Transaction count and value by channel.
 3. Customer activity by segment.
-4. Transaction status distribution.
+4. Transaction status monitoring.
 5. Flagged transactions for review.
-6. Average transaction amounts by transaction type.
+6. Average transaction amount by transaction type.
 7. Account status by customer segment.
 
-These queries demonstrate filtering, grouping, aggregate functions, conditional aggregation, and relational joins.
+The queries demonstrate filtering, grouping, aggregate functions, joins, and subqueries/conditional aggregation.
 
-The SQL files are designed for SQLite. Other database platforms may require minor syntax adjustments.
+The schema and queries are SQLite-oriented. Other database platforms may require small syntax adjustments.
 
-## 9. Python Data Analysis
+## 9. Python Analysis
 
-The main Python script is:
+The main Python program is:
 
 `banking_analysis.py`
 
-The script performs the following operations:
+The script:
 
-- Loads customer, account, and transaction datasets.
-- Checks for duplicate identifiers.
-- Validates non-negative amounts and opening balances.
-- Checks account-to-customer references.
-- Checks transaction-to-account references.
-- Creates a local SQLite database.
+- Loads the customer, account, and transaction datasets.
+- Checks duplicate IDs.
+- Checks for negative amounts and balances.
+- Validates account-to-customer references.
+- Validates transaction-to-account references.
+- Creates a SQLite database.
 - Calculates monthly successful transaction summaries.
 - Analyzes transaction performance by channel.
 - Summarizes transaction statuses.
-- Generates CSV, Markdown, and chart outputs.
+- Exports reports and a monthly trend chart.
 
 ## 10. Installation and Setup
 
@@ -199,8 +196,8 @@ The script performs the following operations:
 
 - Python 3.10 or later.
 - Visual Studio Code or another Python editor.
-- Power BI Desktop for dashboard development.
-- Git for version control, if desired.
+- Power BI Desktop for interactive dashboards.
+- Git, if you want to clone and manage the repository from the terminal.
 
 ### Step 1: Clone the repository
 
@@ -208,13 +205,13 @@ The script performs the following operations:
 git clone https://github.com/Balu200512/banking-customer-transaction-analysis.git
 ```
 
-Navigate to the project folder:
+Move into the project directory:
 
 ```bash
 cd banking-customer-transaction-analysis
 ```
 
-Alternatively, download and extract the project ZIP file.
+Alternatively, download and extract the ZIP file.
 
 ### Step 2: Create a virtual environment
 
@@ -222,7 +219,7 @@ Alternatively, download and extract the project ZIP file.
 python -m venv venv
 ```
 
-On Windows Command Prompt, activate it using:
+On Windows Command Prompt:
 
 ```bat
 venv\Scripts\activate
@@ -236,25 +233,25 @@ python -m pip install -r requirements.txt
 
 ## 11. How to Run the Project
 
-After installing the required dependencies, run:
+Execute the Python script from the project root:
 
 ```bash
 python banking_analysis.py
 ```
 
-The program validates the datasets, creates the SQLite database, and generates analytical reports.
+The script validates the source datasets, creates `banking_analysis.db`, and generates summary reports in the `reports` directory.
 
-Expected dataset counts:
+Expected confirmation includes:
 
-- Customers: 500
-- Accounts: 700
-- Transactions: 6,000
-
-The script prints a completion message and the locations of the generated database and reports.
+- 500 customer records.
+- 700 account records.
+- 6,000 transaction records.
+- Database creation.
+- Report generation.
 
 ## 12. Generated Reports
 
-After running the Python script, the following outputs are created:
+After running the script, the following outputs are created:
 
 ```text
 banking_analysis.db
@@ -269,18 +266,18 @@ reports/
 
 ### Report descriptions
 
-- `monthly_transaction_summary.csv` — monthly successful transaction counts and values.
-- `monthly_transaction_summary.md` — readable monthly transaction summary.
-- `channel_analysis.csv` — successful transaction performance by channel.
-- `transaction_status_summary.csv` — transaction counts and amounts by status.
-- `monthly_transaction_value.png` — monthly successful transaction value chart.
-- `banking_analysis.db` — local SQLite database.
+- `monthly_transaction_summary.csv` – monthly successful transaction counts and values.
+- `monthly_transaction_summary.md` – readable monthly summary.
+- `channel_analysis.csv` – successful transaction metrics by channel.
+- `transaction_status_summary.csv` – transaction counts and total values by status.
+- `monthly_transaction_value.png` – chart of monthly successful transaction value.
+- `banking_analysis.db` – local SQLite database.
 
-These files are generated by the Python program and do not need to be created manually.
+Generated files do not need to be created manually.
 
 ## 13. Power BI Dashboard
 
-The project includes DAX measures and a dashboard guide to help build an interactive report in Power BI Desktop.
+The project provides DAX measures and dashboard instructions to help build an interactive report in Power BI Desktop.
 
 Included files:
 
@@ -304,30 +301,30 @@ Included files:
 ### Recommended visualizations
 
 1. KPI cards for customers, accounts, successful transactions, and transaction value.
-2. Line chart showing monthly successful transaction value.
-3. Bar chart comparing transaction value by banking channel.
+2. Line chart showing successful transaction value by month.
+3. Bar chart comparing transaction values by channel.
 4. Chart showing transaction status distribution.
 5. Customer segment analysis.
 6. Account status analysis.
 7. Table listing flagged transactions for review.
 
-### Power BI report note
+### Power BI file note
 
-A completed `.pbix` file is not included. Create and save the dashboard in Power BI Desktop using the supplied sample datasets, DAX measures, and setup guide.
+A completed `.pbix` file is not included. Build and save the report in Power BI Desktop using the supplied datasets, measures, and guide.
 
-## 14. Key Business Metrics
+## 14. Key Metrics
 
 ### Total Transactions
 
-Counts transaction records in the selected reporting context.
+Counts all transaction records in the selected filter context.
 
 ### Successful Transaction Value
 
-Calculates the total value of transactions whose status is `Successful`.
+Sums the amount for transactions whose status is `Successful`.
 
 ### Average Successful Transaction
 
-Calculated using:
+Calculated as:
 
 ```text
 Average Successful Transaction =
@@ -336,7 +333,7 @@ Successful Transaction Value / Successful Transactions
 
 ### Channel Performance
 
-Compares transaction counts, total values, and average amounts across UPI, ATM, Mobile Banking, Internet Banking, Branch, and Card channels.
+Compares successful transaction counts, total values, and average amounts across channels such as UPI, ATM, Mobile Banking, Internet Banking, Branch, and Card.
 
 ### Transaction Status
 
@@ -344,23 +341,21 @@ Tracks successful, failed, pending, and reversed transactions to help understand
 
 ### Flagged Transactions
 
-Transactions marked with `is_suspicious_flag = Yes` are highlighted for further review.
-
-**Important:** A flagged transaction is not proof of fraud. The sample flags are synthetic and are intended only to demonstrate a review workflow.
+Records with `is_suspicious_flag = Yes` are highlighted for further review. A flag is not proof of fraud and should not be treated as a definitive risk assessment.
 
 ## 15. Business Questions Answered
 
-This project helps answer questions such as:
+This project helps explore questions such as:
 
 1. How many customers and accounts are represented in the dataset?
 2. What is the monthly successful transaction value?
 3. Which banking channel processes the highest successful transaction value?
 4. What is the average successful transaction amount?
 5. How many transactions failed, remain pending, or were reversed?
-6. How does transaction activity vary by customer segment?
+6. How do customer segments differ in transaction activity?
 7. What is the distribution of account statuses?
 8. Which transactions have been flagged for review?
-9. How can transaction trends be displayed in an interactive dashboard?
+9. How can transaction trends be presented in a dashboard?
 
 ## 16. Skills Demonstrated
 
@@ -369,39 +364,37 @@ This project helps answer questions such as:
 - Pandas data analysis.
 - Data validation and cleaning.
 - Exploratory data analysis.
-- Banking transaction analysis.
+- Transaction and channel analysis.
 - Customer segmentation.
 - Data visualization.
 - Power BI dashboard design.
 - DAX measures.
 - Excel data handling.
-- Git and GitHub.
+- GitHub project organization.
 
 ## 17. Data Privacy and Limitations
 
-- All sample records are synthetic.
-- The project is intended for educational and portfolio purposes.
-- Flagged transactions are not confirmed fraudulent transactions.
-- The sample risk categories are illustrative, not a validated risk model.
-- The Power BI dashboard must be created separately.
-- The project is not a production banking system.
-- Results depend on the supplied data and the definitions used in the queries.
-
-Do not use this sample project to make real credit, fraud, financial, or compliance decisions.
+- All records are synthetic and not real banking data.
+- The project is intended for educational and portfolio use.
+- Flagged transactions are candidates for review, not confirmed fraudulent activity.
+- The sample risk category is illustrative and is not a validated credit or fraud model.
+- The dashboard requires a separate build step in Power BI Desktop.
+- The project is not a production banking system and should not be used to make real financial or compliance decisions.
 
 ## 18. Future Enhancements
 
 Possible improvements include:
 
-- Daily and hourly transaction trend analysis.
-- Customer retention and engagement analysis.
-- Transaction anomaly detection.
-- Integration with PostgreSQL or SQL Server.
-- A Streamlit analytics dashboard.
-- Automated data-quality testing.
-- Scheduled report generation.
-- Power BI row-level security.
-- A completed Power BI `.pbix` dashboard.
+- Adding daily and hourly transaction trends.
+- Adding customer retention and engagement analysis.
+- Building a transaction anomaly detection model.
+- Adding credit-risk analysis using a suitable validated dataset.
+- Integrating with PostgreSQL or SQL Server.
+- Creating a Streamlit analytics dashboard.
+- Adding automated data-quality tests.
+- Scheduling report generation.
+- Adding row-level security in Power BI.
+- Building a completed `.pbix` report.
 
 ## 19. Author
 
@@ -411,7 +404,7 @@ GitHub: [Balu200512](https://github.com/Balu200512)
 
 ## 20. License
 
-This project is provided for educational, portfolio, and demonstration purposes. Add a formal open-source license file if you intend to distribute the project under specific reuse terms.
+This project is provided for educational, portfolio, and demonstration purposes. Add a formal open-source license file if you intend to distribute it under specific reuse terms.
 
 ---
 

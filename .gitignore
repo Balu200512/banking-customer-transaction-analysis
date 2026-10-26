@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+banking_analysis.db
+reports/*.png
+reports/*.csv
+reports/*.md
+~$*.xlsx

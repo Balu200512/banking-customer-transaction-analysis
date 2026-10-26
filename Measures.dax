@@ -1,0 +1,30 @@
+-- Create these measures after loading Customers, Accounts, and Transactions.
+Total Transactions = COUNTROWS(Transactions)
+
+Successful Transactions =
+CALCULATE([Total Transactions], Transactions[transaction_status] = "Successful")
+
+Successful Transaction Value =
+CALCULATE(SUM(Transactions[amount]), Transactions[transaction_status] = "Successful")
+
+Average Successful Transaction =
+DIVIDE([Successful Transaction Value], [Successful Transactions], 0)
+
+Failed Transactions =
+CALCULATE([Total Transactions], Transactions[transaction_status] = "Failed")
+
+Pending Transactions =
+CALCULATE([Total Transactions], Transactions[transaction_status] = "Pending")
+
+Reversed Transactions =
+CALCULATE([Total Transactions], Transactions[transaction_status] = "Reversed")
+
+Customers = DISTINCTCOUNT(Customers[customer_id])
+
+Accounts = DISTINCTCOUNT(Accounts[account_id])
+
+Flagged Transactions =
+CALCULATE([Total Transactions], Transactions[is_suspicious_flag] = "Yes")
+
+Flagged Transaction Value =
+CALCULATE(SUM(Transactions[amount]), Transactions[is_suspicious_flag] = "Yes")
